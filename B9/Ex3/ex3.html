@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EX3</title>
+	<link rel="stylesheet" type="text/css" href="ex3.css">
+</head>
+<body>
+	
+	<div class="content">
+		<div class="btn-cover">
+			<button class="btn btn-active" onclick="c(1)" id="tab-1">TAB 1</button>
+			<button class="btn"  onclick="c(2)" id="tab-2">TAB 2</button>
+			<button class="btn" onclick="c(3)" id="tab-3">TAB 3</button>
+		</div>
+		
+		<div class="ct-cover">
+			<div class="ct ct-active" id="tx-1">
+				<h3>Section 1</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti.
+			</div>
+			<div class="ct" id="tx-2">
+				<h3>Section 2</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem.
+			</div>
+			<div class="ct" id="tx-3">
+				<h3>Section 3</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum.
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function c(number){
+			var key = document.getElementsByClassName('btn-active')[0];
+
+			key.classList.remove('btn-active');
+
+			document.getElementById('tab-'+number).classList.add('btn-active')
+
+			key = document.getElementsByClassName('ct-active')[0];
+			
+			key.classList.remove('ct-active')
+			document.getElementById('tx-'+number).classList.add('ct-active')
+		}
+	</script>
+</body

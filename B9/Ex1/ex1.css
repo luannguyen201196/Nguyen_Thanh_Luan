@@ -1,0 +1,16 @@
+h2{
+	color: red;
+}
+input[type=button]{
+	padding: 10px;
+	box-shadow: 5px 5px 5px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+input[type=button]:hover{
+	background: #339999;
+	color: #fff;
+}
+#p{
+	padding-top: 30px;
+}

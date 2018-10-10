@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<button onclick="clickMe()">Hình Chữ Nhật Rỗng</button>
+	<script type="text/javascript">
+		function clickMe(){
+			var n = prompt('Nhập n: ')
+			for (var i = 1; i <= n; i++) {
+				for (var j = 1; j <= n; j++) {
+					if(i == 1 || j == 1 || i == n || j == n){
+						document.write('&nbsp;*&nbsp;')						
+					}else{
+						document.write('&nbsp;&nbsp;&nbsp;&nbsp;')	
+					}
+				}
+					document.write('<br>')
+			}		
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex2</title>
+	<link rel="stylesheet" type="text/css" href="ex2.css">
+</head>
+<body>
+	<form>
+		<center>
+			<table>
+			<tr>
+				<td class="t1">Họ và tên</td>
+				<td class="t2"><input type="text" name="name" id="name" placeholder="Nhập họ và tên ..."><span class="error" id="errorName"></span></td>
+				
+			</tr>
+			<tr>
+				<td class="t1">Giới tính</td>
+				<td class="t3">
+					<input type="radio" name="gt" id="gt">Nam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="gt" id="gt">Nữ
+				</td>
+			</tr>
+			<tr>
+				<td class="t1">Email</td>
+				<td class="t2"><input type="email" name="email" id="email" placeholder="Nhập email ..."><span class="error" id="errorEmail"></span></td>
+			
+			</tr>
+			<tr>
+				<td class="t1">Số điện thoại</td>
+				<td class="t2"><input type="text" name="sdt" id="sdt" placeholder="Nhập số điện thoại ..."><span class="error" id="errorSdt"></span></td>
+				
+			</tr>
+			<tr>
+				<td class="t1">Mật khẩu</td>
+				<td class="t2"><input type="password" name="password" id="password"><span class="error" id="errorPassword"></span></td>
+				
+			</tr>
+			<tr>
+				<td class="t1">Xác nhận mật khẩu</td>
+				<td class="t2"><input type="password" name="rpassword" id="rpassword"><span class="error" id="errorrPassword"></span></td>
+				
+			</tr>
+		</table>
+			<div id="btn">
+				<input type="button" value="Đăng kí" id="dk">
+				<input type="reset" value="Xóa trắng" class="btnsn" id="reset" onclick="reSet()">
+			</div>
+		</center>
+	</form>
+	<script type="text/javascript" src="ex2.js"></script>
+</body>
+</html>

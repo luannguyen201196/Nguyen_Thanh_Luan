@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex2</title>
+	<style type="text/css">
+	#div{
+		color: #0000FF;
+		width: 700px;
+		height: 100px;
+		background:#F5F5F5;
+		display: inline-block;
+	}
+	.div1{
+		display: inline-block;
+		width: 180px;
+	}
+	.div2{
+		color: black;
+		float: right;
+		width: 150px;
+	}	
+	.top-item:hover{
+		color: red;
+		text-decoration: underline;
+	}
+	.bottom-item,.top-item{
+		color: black;
+	}
+	.bottom-item{
+		font-weight: bold;
+	}
+	.bottom-item:hover{
+		color: red;
+		text-decoration: underline;
+	}
+	.left-item, .right-item{
+		float: left;
+		height: 100px;
+	}
+	.left-item>img {
+		display: block;
+	}
+	.left-item>img.bottom-item {
+		margin-top:30px;
+	}
+
+	.right-item>div.bottom-item {
+		margin-top:30px;
+		margin-left:3px;
+	}
+
+</style>
+</head>
+<body>
+<div id="div">
+	<div class="div1">
+		<div class="left-item">
+			<img src="image/ico_check.gif" alt="" class="top-item">
+			<img src="image/img_kinhdoanh.gif" alt="" class="bottom-item">
+		</div>
+		<div class="right-item">
+			<div class="top-item">Quy định sử dụng</div>
+			<div class="bottom-item">Liên hệ kinh doanh</div>
+		</div>
+	</div>
+	<div class="div1">
+		<div class="left-item">
+			<img src="image/ico_check.gif" alt="" class="top-item">
+			<img src="image/img_kinhdoanh.gif" alt="" class="bottom-item">
+		</div>
+		<div class="right-item">
+			<div class="top-item">Hướng dẫn thanh toán</div>
+			<div class="bottom-item">Hỗ trợ kỹ thuật</div>
+		</div>	
+	</div>
+	<div class="div1">
+		<div class="left-item">
+			<img src="image/ico_check.gif" alt="" class="top-item">
+			<img src="image/img_kinhdoanh.gif" alt="" class="bottom-item">
+		</div>
+		<div class="right-item">
+			<div class="top-item">Download bảng giá</div>
+			<div class="bottom-item">Góp ý công ty</div>
+		</div>	
+	</div>
+	<div class="div2">
+		<div>Sale1</div>
+		<img src="image/online.gif"><br>
+		<div>Sale2</div>
+		<img src="image/offline.gif">		
+	</div>
+</div>	
+</body>
+</html>

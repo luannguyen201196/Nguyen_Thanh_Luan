@@ -1,0 +1,19 @@
+tr{
+	background: #CC6666;
+}
+td p{
+	color: #fff;
+	padding: 0 20px;
+}
+tr:hover{
+	background: #339999;
+}
+input[type = button]{
+	box-shadow: 5px 5px 5px;
+	padding: 15px;
+	font-weight: bold;
+}
+input[type = button]:hover{
+	background: #339999;
+	color: white;
+	}

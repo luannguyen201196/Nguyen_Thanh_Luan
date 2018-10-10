@@ -1,0 +1,347 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+}
+.clear{
+	clear: both;
+}
+#header{
+	width: 100%;
+}
+.p{
+	width: 30%;
+	line-height: 60px;
+	float: left;
+	text-align: center;
+	font-size: 25px;
+}
+.menu{
+	width: 67%;
+	float: left;
+	line-height: 60px;
+
+}
+.menu ul{
+	list-style: none;
+	padding-right: 100px;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+	font-size: 15px;
+}
+.cam a{
+	color: orange ! important;
+}
+#image {
+	width: 100%;
+}
+#image img{
+	width: 100%;
+}
+#ball{
+	width: 100%;
+	text-align: center;
+}
+#ball i{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.title{
+	text-align: center;
+	padding-top: 50px;
+}
+.title p{
+	padding-bottom: 10px;
+}
+.logo{
+	padding-top: 20px;
+	width: 100%;
+	float: left;
+}
+.logo-1{
+	height: 300px;
+}
+.item{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.item i{
+	width: 50px;
+	line-height: 50px;
+	background: #EE4000;
+	border-radius: 40px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.main{
+	width: 100%;
+	float: left;
+}
+.top{
+	text-align: center;
+}
+#MF{
+	font-weight: bold;
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+.girl{
+	width: 95%;
+	float: left;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+.g-1{
+	width: 50%;
+	float: left;
+}
+.g-2{
+	width: 50%;
+	float: left;
+}
+.logo-2{
+	width: 90%;
+	padding: 50px 0 20px 20px;
+	float: left;
+}
+.bot{
+	width: 5%;
+}
+.seu{
+	width: 20%;
+	float: left;
+}
+.orange{
+	width: 100%;
+	padding-bottom: 50px;
+	background: #EE4000;
+	float: left;
+}
+.title-o{
+	text-align: center;
+	padding-top: 70px;
+	color: #fff;
+}
+#ea{
+	font-size: 25px;
+}
+#tini{
+	font-size: 10px;
+}
+button{
+	padding: 5px 5px 5px 5px;
+	border-radius: 10px;
+	background: #fff;
+}
+.people{
+	width: 100%;
+	float: left;
+}
+#say{
+	font-size: 25px;
+}
+.what{
+	float: left;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	padding-top: 50px;
+}
+.man{
+	width: 100%;
+	padding-bottom: 50px;
+	float: left;
+}
+.man-1{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.Jone{
+	padding-top: 10px;
+}
+#footer{
+	width: 100%;
+	float: left;
+}
+.multi{
+	background: #444444;
+	padding: 50px 0 50px 50px;
+	color: #fff;
+	float: left;
+}
+.m1{
+	width: 30%;
+	float: left;
+	padding-right: 10px;
+}
+#p2{
+	line-height: 2;
+}
+.m1 p i{
+	width: 15px;
+	margin-right: 10px;
+	padding: 10px;
+	background: black;
+	border-radius: 20px;
+}
+.m2-1 p{
+	padding-top: 7px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #fff;
+}
+.m2-2{
+	padding-top: 10px;
+}
+.home{
+	background: black;
+	float: left;
+	color: #fff;
+	width: 100%;
+}
+.home p{
+	line-height: 60px;
+	float: left;
+	padding-left: 50px;
+}
+#list{
+	float: right;
+}
+#list ul{
+	list-style: none;
+	padding-right: 70px;
+}
+#list ul li{
+	display: inline-block;
+	line-height: 60px;
+}
+#list ul li a{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #fff;
+}
+.logo-3 .item {
+		width: 30%;
+	}
+	.logo-3 .seu {
+		width: 70%;
+	}
+@media (max-width: 480px){
+	.menu{
+		display: none;			
+	}
+	.menu ul li.item:first-child{
+		display: block;
+		color: orange;
+	}
+	.item{
+		width: 100%;
+	}
+	.logo{
+		padding-bottom: 20px;
+	}
+	.g-1 img{
+		width: 100%;
+	}
+	.g-2 img{
+		width: 100%;
+	}
+	.man-1{
+		width: 100%;
+	}
+	.home p{
+		padding-left: 20px;
+	}
+	#list ul{
+		width: 100%;
+		padding-right: 0px;
+	}
+}
+
+@media (max-width: 793px){
+	.menu ul li.item:first-child{
+		display: none;
+	}
+	#header{
+		width: 100%;
+	}
+	.menu ul{
+		width: 92%;
+	}
+	.g-1{
+		width: 90%;
+	}
+	.g-1 img{
+		width: 100%;
+	}
+	.g-2 img{
+		width: 100%;
+	}
+	.g-2{
+		width: 90%;
+	}
+	.m1{
+		width: 90%;
+		padding-bottom: 10px;
+	}
+	.what{
+		width: 90%;
+	}
+	.logo-3 {
+		width: 100%;
+	}
+	.logo-3 .item {
+		width: 30%;
+	}
+	.logo-3 .seu {
+		width: 70%;
+	}
+}
+@media (min-width: 794px) and (max-width: 1339px){
+	#header{
+		width: 100%;
+	}
+	.menu ul li.item:first-child{
+		display: none;
+	}
+	#image{
+		width: 100%;
+	}
+	#ball{
+		width: 100%;
+	}
+	#content{
+		width: 100%;
+	}
+	#footer{
+		width: 100%;
+	}
+	.logo-3 {
+		width: 25%;
+		float: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.logo-3 {
+		width: 25%;
+		float: left;
+	}
+	.menu ul li.item:first-child{
+		display: none;
+	}
+}
+
+

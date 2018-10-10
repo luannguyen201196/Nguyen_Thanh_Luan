@@ -1,0 +1,13 @@
+.wraper{
+    width: 40%;
+    margin: 0 auto;
+}
+.tab{
+    background: gray;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.content{
+    padding-left: 10px;
+}

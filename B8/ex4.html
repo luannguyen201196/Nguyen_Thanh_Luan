@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex4</title>
+</head>
+<body>
+	<script type="text/javascript">
+		do{
+			alert('M phải lớn hơn N !!')
+			var m = prompt('Nhập m: ')
+			var n = prompt('Nhập n: ')
+			n = parseInt(n);
+		}while(m < n)
+		var k = prompt('Nhập k: ')
+		if (m < n) {
+			alert('Lỗi')
+		}else{
+			var sum = 0;
+			for (i = n+1; i < m; i++)
+				if (i % k == 0) {
+					sum += 1;
+				}
+		}
+		alert('Tổng các số chia hết cho '+ k +' trong khoảng từ '+ m + ' đến ' + n + ' là: ' +sum)
+	</script>
+</body>
+</html>

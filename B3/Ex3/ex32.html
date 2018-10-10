@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	body{
+		background-image: url(image/tuyet.jpg);
+	}
+	.tong{
+		width: 800px;
+		border: 1px black solid;
+		margin:  0 auto;
+		padding: 5px 5px 5px 5px;
+		font-family: Arial;
+		font-size: 12px;
+		background-color: white;
+		overflow: auto;
+	}
+	.banner{
+		height: 300px;
+		border: 2px;
+		background-repeat: no-repeat;
+		background-image: url(image/123.jpg);
+	}
+	.menu{
+		width: 800px;
+		height: 40px;
+		background-color: orange;
+	}
+	.menu>ul{
+		margin-top: 0;
+		text-align: center;
+	}
+	.menu>ul>li{
+		float: left;
+		width: 150px;
+		line-height: 40px;
+		display: inline-table;
+	}
+	.menu>ul>li>a:hover{
+		background-color: #f1f1f1;
+		color: #555555;
+	}
+	.title{
+		background-image: url(image/menu_bar.gif);
+		height:30px;
+		line-height: 30px;
+		text-align: center;
+		color: white;
+	}
+	.note{
+		width: 480px;
+		color: white;
+		margin-top:15px;
+		background-color: orange;
+		border-radius: 15px;
+		text-align: justify;
+		margin: 0 auto;
+		font-style: italic;
+	}
+	.box{
+		width: 145px;
+		border: 1px solid #555555;
+	}
+	.box>p{
+		padding-left: 5px;
+	}
+	#left{
+		width: 145px;
+		float: left;
+	}
+	#right{
+		width: 145px;
+		float: left;
+	}
+	#mid{
+		width: 508px;
+		float: left;
+	}
+	.content-left{
+		padding-left: 15px;
+	}
+	.content-left>p{
+		margin: 0 ;
+	}
+	.logo-left{
+		width: 470px;
+		height: 25px;
+		line-height: 25px;
+		background-image: url(image/main_bar_left.gif);
+	}
+	.logo-right{
+		text-align: right;
+		width: 470px;
+		height: 25px;
+		line-height: 25px;
+		background-image: url(image/main_bar_right.gif);
+	}
+		.box a:hover{
+		color: orange;
+	}
+	.content-right{
+		width: 493px;
+		height: 150px;
+		padding-left: 15px;
+	}
+	.content-right>p{
+		margin: 0 ;
+	}
+	.logo-rigt>a{
+		text-align: right;	
+	}
+	.mid>a:hover{
+		text-decoration: underline;
+		color: red;
+	}
+	.box>p>a{
+		text-decoration: none;
+	}
+	.content-left .imagelogo {
+		width: 35%;
+		float:left;
+	}
+	.content-left .text_left {
+		width: 65%;
+		float:left;
+	}
+	.content-right .imagelogo {
+		width: 35%;
+		float:right;
+	}
+	.content-right .text_right {
+		width: 65%;
+		float:right;
+	}
+	.clear{
+		clear: both;
+	}
+
+</style>
+</head>
+<body>
+	<div class ="tong">
+		<div class="banner"></div>
+		<div class="menu">
+			<ul>
+				<li><a href="#">Trang chủ</a></li>
+				<li><a href="#">Giới thiệu</a></li>
+				<li><a href="#">Tin tức</a></li>
+				<li><a href="#">Liên hệ</a></li>
+				<li><a href="#">Diễn đàn</a></li>
+			</ul>
+		</div>
+		<span><hr size="3px" width="795px" color="#555555"></span>
+		<br>
+		<div id="left">
+			<div class="box">
+				<p class="title">Danh Mục Chính</p>
+				<p><a href="#">Gia công phần mềm</a></p>
+				<p><a href="#">Đào tạo lập trình viên</a></p>
+				<p><a href="#">Tư vấn doanh nghiệp</a></p>
+				<p><a href="#">Ảnh viện áo cưới</a></p>
+			</div>
+			<br>		
+			<div class="box" >
+				<p class="title">Bài Viết Đáng Chú Ý</p>
+				<p><a href="#">Hướng dẫn đăng kí học</a></p>
+				<p><a href="#">Hình thức học tập online</a></p>
+				<p><a href="#">Cài đặt &  sử dụng skype</a></p>
+				<p><a href="#">Cài đặt & sử dụng teamviewer</a></p>		
+			</div>
+			<br>
+			<div class="image">
+				<img src="image/img1.gif"><br>
+				<img src="image/img2.gif">
+			</div>
+		</div>
+		<div id="mid">
+			<div class="note">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae nemo explicabo quibusdam doloremque obcaecati nisi dicta eligendi, placeat sequi cupiditate corporis nihil, assumenda incidunt repellendus mollitia debitis, tempore? Ipsa ratione perferendis, consectetur quo aspernatur iure cupiditate inventore sunt quaerat dolorum.
+			</div>
+			<br>
+			<div class="content-left">
+				<div class="logo-left">CNTT</div>
+				<p><a href="">Gia Công Phần Mềm</a></p>
+				<div class="imagelogo">
+					<img src="image/phanmem.gif">
+				</div>
+				<div class="text_left">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae nemo explicabo quibusdam doloremque obcaecati nisi dicta eligendi, placeat sequi cupiditate corporis nihil, assumenda incidunt repellendus mollitia debitis, tempore? Ipsa ratione perferendis, consectetur quo aspernatur iure cupiditate inventore sunt quaerat dolorum.
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="content-right">
+				<div class="logo-right">GIÁO DỤC</div>
+				<p><a href="">Đào Tạo Lập Trình Viên</a></p>
+				<div class="imagelogo">
+					<img width="100%" src="image/leroi.jpg">
+				</div>
+				<div class="text_right">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae nemo explicabo quibusdam doloremque obcaecati nisi dicta eligendi, placeat sequi cupiditate corporis nihil, assumenda incidunt repellendus mollitia debitis, tempore? Ipsa ratione perferendis, consectetur quo aspernatur iure cupiditate inventore sunt quaerat dolorum.
+				</div>
+			</div>
+		</div>
+		<div id="right">
+			<div class="box">
+				<p class="title">Tư Vấn Trực Tuyến</p>
+				<img src="image/online.gif">
+				<img src="image/offline.gif">
+			</div>
+			<br>
+			<div class="box" >
+				<p class="title">Các Bài Viết Mới</p>
+				<p><a href="#">Htaccess trong PHP</a></p>
+				<p><a href="#">HTML5 & SEO</a></p>
+				<p><a href="#">Viết trang login và logout cho hệ thống</a></p>
+				<p><a href="#">CSS nâng cao</a></p>
+				<p><a href="#">Làm mịn da mặt với photoshop CS3</a></p>		
+			</div>
+			<br>
+			<div class="image">
+				<img src="image/img3.gif">
+				<img src="image/img4.gif">
+				<img src="image/img5.gif">
+			</div>
+		</div>
+		
+		<div class="footer"></div>
+	</div>
+</body>
+</html>

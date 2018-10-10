@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="ex2.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+	<div class="wraper">
+		<div class="container">
+
+			<div class="tab" id="accordion1"><i class="fas fa-plus"></i>First</div>
+			<div class="content active1" style="display: none">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ab explicabo sint veniam beatae, porro enim? Consectetur sapiente, reiciendis non!
+			</div>
+
+			<div class="tab" id="accordion2"><i class="fas fa-plus"></i>Second</div>
+			<div class="content active2" style="display: none">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ab explicabo sint veniam beatae, porro enim? Consectetur sapiente, reiciendis non!
+			</div>
+
+			<div class="tab" id="accordion3"><i class="fas fa-plus"></i>Third</div>
+			<div class="content active3" style="display: none">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ab explicabo sint veniam beatae, porro enim? Consectetur sapiente, reiciendis non!
+			</div>
+
+			<div class="tab" id="accordion4"><i class="fas fa-plus"></i>Fourth</div>
+			<div class="content active4" style="display: none">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ab explicabo sint veniam beatae, porro enim? Consectetur sapiente, reiciendis non!
+			</div>
+		</div>
+	</div>	
+		<script type="text/javascript" src="../../js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#accordion1').click(function(){
+					$('.content').css('display', 'none')
+					$('.active1').css('display','block')
+				})
+			})
+			$(function(){
+				$('#accordion2').click(function(){
+					$('.content').css('display', 'none')
+					$('.active2').css('display','block')
+				})
+			})
+			$(function(){
+				$('#accordion3').click(function(){
+					$('.content').css('display', 'none')
+					$('.active3').css('display','block')
+				})
+			})
+			$(function(){
+				$('#accordion4').click(function(){
+					$('.content').css('display', 'none')
+					$('.active4').css('display','block')
+				})
+			})
+		</script>
+	</body>
+	</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex2</title>
+</head>
+<body>
+	<button onclick="clickMe()">Don't Touch Me</button>
+	<script type="text/javascript">
+		function clickMe()
+		{
+			var i = 0;
+			var tong = 0;
+			while(i <= 10){
+				if (i%2==0) {
+					tong += i;
+				}
+				i++;
+			}
+			alert('Tổng số chẵn từ 1 đến 10 là: '+tong)
+		}
+	</script>
+</body>
+</html>

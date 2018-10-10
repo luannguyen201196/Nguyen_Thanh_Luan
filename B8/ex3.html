@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex3</title>
+</head>
+<body>
+	<button onclick="clickMe()">Don't Touch Me</button>
+	<script type="text/javascript">
+		function clickMe(){
+			do{	
+			var n = prompt('Nhập n: ')
+			var sum =0;
+			if (n <= 0) {
+				alert('n phải lớn hơn 0 !!!')
+			}
+		}while(n<=0)
+		for (var i = 1; i <= n; i++) {
+			sum+= 1/i;
+		}
+		alert('Tổng là: '+sum)
+		}	
+	</script>
+</body>
+</html>

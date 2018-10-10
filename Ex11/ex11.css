@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wraper{
+	width: 100%;
+}
+.header {
+    background-color: #f44336;
+    height: 150px;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+h2{
+	margin-bottom: 20px;
+}
+input {  
+    width: 75%;
+    height: 40px;
+    float: left;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+}
+#add {
+    width: 25%;
+    height: 40px;
+    background: #d9d9d9;
+    color: #555555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+#add:hover {
+    background-color: #bbbbbb;
+}
+.clear{
+	clear: both;
+}
+#content .checkbox{
+	width: 4%;
+}
+#content .text{
+	cursor: pointer;
+	width: 90%;
+}
+#content .text tr{
+	height: 50px;
+}
+#content .del{
+	width: 5%;
+	cursor: pointer;
+}
+table tr{
+	background: #d9d9d9;
+	height: 45px;
+	font-weight: 20px;
+}

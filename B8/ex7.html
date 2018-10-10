@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex1</title>
+</head>
+<body>
+	<button onclick="clickMe()">Don't Touch Me</button>
+	<script type="text/javascript">
+		function clickMe(){
+			var i;
+			var dem = 0;
+			for(i = 3; i <= 100; i++){
+				if (((i%3)==0)||((i%7)==0)) {
+					dem++;
+			}
+			}
+			alert('Tổng các số chia hết cho 3 hoặc 7 trong đoạn từ 1 đến 100 là: ' +dem)
+		}
+	</script>
+</body>
+</html>
